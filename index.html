@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Potta+One&display=swap" rel="stylesheet">
+    <title>Movie Wave</title>
+  </head>
+  <body>
+    
+     <header>
+      <img src="assets/Images/logo-removebg-preview.png" alt="logo" class="logo" />
+      <h1>Movie Wave</h1>
+      <select id="filtroCategoria">
+        <option value="todos">Todos</option>
+        <option value="Ciencia Ficcion">Ciencia Ficción</option>
+        <option value="Accion">Acción</option>
+        <option value="Comedia">Comedia</option>
+      </select>
+      
+      <input id="buscador" placeholder="Buscar peliculas..." type="text" /> 
+      
+      
+    </header>
+    <main id="main">
+      <h2 id="peliculas">Películas</h2>
+     
+      <section class="section-movies">
+        <div id="movies-container"></div>
+      </section>
+    
+      <h2 id="series">Series</h2>
+     
+      <section class="section-series">
+        <div id="series-container"></div>
+      </section>
+
+    </main>
+    <footer>
+      <img src="assets/Images/logo-removebg-preview.png" alt="">
+      <ul>
+        <li>|| Movie Wave ||</li>
+        <li>|| Peliculas ||</li>
+        <li>|| Series ||</li>
+        <li>|| Privacidad ||</li>
+      </ul>
+      <p>
+        || 2023 Movie Wave y su familia de compañías afiliadas. Todos los derechos reservados.||
+      </p>
+    </footer>
+    
+    <div class="modal">
+      <div class="overlay"></div>
+      <div class="content">
+        <iframe
+          class="reproductor"
+          width="560"
+          height="315"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <button class="cerrar-modal">cerrar modal</button>
+      </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

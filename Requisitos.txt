@@ -1,0 +1,9 @@
+1. Que en el home haya 15 series y 15 películas.
+2. título, estreno, sinopsis,género,botón agregar.
+3. Redirigir a youtube.
+4. Buscar por título y por género
+================================
+1. Crear un repo, el líder de equipo Jhonatan
+2. Reunir la información de las películas.
+Info Películas: 
+Info Series:  
